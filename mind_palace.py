@@ -142,29 +142,7 @@ def learn_bam():
                                      print_idata = True)
     print(next(console))
     for f_name in fdb:
-        print(console.send(f_name))
-
-    #console = bam.infer_by_deduction(recall_mode = 'out')
-    #print(next(console))
-    #print(console.send('Тундра'))
-    #print(console.send('Горы'))
-    #print(console.send('Бурый медведь'))
-    
-    #console = bam.infer_by_deduction(recall_mode = 'out', do_induction = True)
-    #print(next(console))
-    #console.send('Кирилл Ратушный')
-    #console.send('Кирилл Ратушный')
-    #console.send('Кирилл Ратушный')
-    #console.send('Кирилл Ратушный')
-    #print(console.send('Пиксель-артист'))
-    #print(console.send('Ильдар Нургалеев'))
-
-    #console = bam.infer_by_deduction(recall_mode = 'out', do_abduction = True)
-    #print(next(console))
-    #print(console.send('LEGO Harry Potter Knightbus'))
-    #print(console.send('LEGO Harry Potter Knightbus'))
-    #print(console.send('LEGO Harry Potter Knightbus'))
-    #print(console.send('LEGO Harry Potter Knightbus'))       
+        print(console.send(f_name))  
 
     #if memw_mode == 'c':
     bam.save_W()
